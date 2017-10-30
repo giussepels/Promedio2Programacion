@@ -1,1 +1,0 @@
-# Promedio2Programacion

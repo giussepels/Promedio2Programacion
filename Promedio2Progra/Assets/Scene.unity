@@ -899,13 +899,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.359}
+  m_Color:
+    r: 0
+    g: 0
+    b: 0
+    a: 0.359
   m_RaycastTarget: 1
+  <useLegacyMeshGeneration>k__BackingField: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
   m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -914,6 +920,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+  m_AlphaHitTestMinimumThreshold: 0
 --- !u!222 &1318320048
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1044,6 +1051,15 @@ MonoBehaviour:
   m_Script: {fileID: 77597817}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_EventSystem: {fileID: 0}
+  m_InputOverride: {fileID: 0}
+  m_DefaultInput: {fileID: 0}
+  m_PrevActionTime: 0
+  m_LastMoveVector: {x: 0, y: 0}
+  m_ConsecutiveMoveCount: 0
+  m_LastMousePosition: {x: 0, y: 0}
+  m_MousePosition: {x: 0, y: 0}
+  m_CurrentFocusedGameObject: {fileID: 0}
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1062,9 +1078,14 @@ MonoBehaviour:
   m_Script: {fileID: 1064909789}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SystemInputModules: []
+  m_CurrentInputModule: {fileID: 0}
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 5
+  m_CurrentSelected: {fileID: 0}
+  m_HasFocus: 1
+  m_SelectionGuard: 0
 --- !u!4 &1449507614
 Transform:
   m_ObjectHideFlags: 0
@@ -1125,13 +1146,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   m_RaycastTarget: 1
+  <useLegacyMeshGeneration>k__BackingField: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
   m_Sprite: {fileID: 21300000, guid: 4589a8e6f106f9a4288e2f74b0a063c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1140,6 +1167,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+  m_AlphaHitTestMinimumThreshold: 0
 --- !u!222 &1584523539
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1193,13 +1221,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   m_RaycastTarget: 1
+  <useLegacyMeshGeneration>k__BackingField: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
   m_Sprite: {fileID: 21300000, guid: 4589a8e6f106f9a4288e2f74b0a063c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1208,6 +1242,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+  m_AlphaHitTestMinimumThreshold: 0
 --- !u!222 &1685967134
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1261,13 +1296,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   m_RaycastTarget: 1
+  <useLegacyMeshGeneration>k__BackingField: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
   m_Sprite: {fileID: 21300000, guid: 4589a8e6f106f9a4288e2f74b0a063c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1276,6 +1317,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+  m_AlphaHitTestMinimumThreshold: 0
 --- !u!222 &1748537472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1360,13 +1402,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   m_RaycastTarget: 1
+  <useLegacyMeshGeneration>k__BackingField: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
   m_Sprite: {fileID: 21300000, guid: 4589a8e6f106f9a4288e2f74b0a063c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1375,6 +1423,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+  m_AlphaHitTestMinimumThreshold: 0
 --- !u!222 &1919300062
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1436,13 +1485,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.359}
+  m_Color:
+    r: 0
+    g: 0
+    b: 0
+    a: 0.359
   m_RaycastTarget: 1
+  <useLegacyMeshGeneration>k__BackingField: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
   m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1451,6 +1506,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+  m_AlphaHitTestMinimumThreshold: 0
 --- !u!222 &1972044327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1515,13 +1571,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   m_RaycastTarget: 1
+  <useLegacyMeshGeneration>k__BackingField: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
   m_Sprite: {fileID: 21300000, guid: 4589a8e6f106f9a4288e2f74b0a063c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1530,6 +1592,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+  m_AlphaHitTestMinimumThreshold: 0
 --- !u!222 &2014954376
 CanvasRenderer:
   m_ObjectHideFlags: 0
